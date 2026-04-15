@@ -12,7 +12,7 @@ if ! python3 -c "import sys" &>/dev/null; then
     exit 1
 fi
 mkdir -p "$HOME/.pp"
-curl -f -S -L https://raw.githubusercontent.com/pufferler/pufferpatcher/main/pp.py \
+curl -f -s -S -L https://raw.githubusercontent.com/pufferler/pufferpatcher/main/pp.py \
     -o "$HOME/.pp/pp.py"
 echo -e "\ndownloaded (https://raw.githubusercontent.com/pufferler/pufferpatcher/main/pp.py)"
 # command creator
