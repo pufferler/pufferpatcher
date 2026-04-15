@@ -1,9 +1,12 @@
-# puffer patcher
-single python file, patches roblox, cli, superlightweight
+# (WIP) puffer patcher
+A superlightweight roblox bootstrapper for macOS, similar to bloxstrap or appleblox, but entirely in python.
+
+It is a single python file and cli
 
 ## features
 - patch fastflags
 - server notification
+
 more to be revealed
 
 # installation
