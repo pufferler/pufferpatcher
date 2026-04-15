@@ -7,8 +7,8 @@ if [[ "$OSTYPE" != "darwin"* ]]; then
     exit 1
 fi
 # check python, otherwise install it (implement later)
-if ! command -v python3 &>/dev/null; then
-    echo "no python go install python"
+if ! python3 -c "import sys" &>/dev/null; then
+    echo -e "no python3 installed, install python3 at homebrew, python.org, or\nrun: xcode-select --install (recommended)"
     exit 1
 fi
 mkdir -p "$HOME/.pp"
